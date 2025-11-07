@@ -1,0 +1,190 @@
+.about-section {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #040d21, #0f2027);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+  overflow: hidden;
+  padding: 80px 0;
+  color: #fff;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 30, 0.6);
+  backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+.about-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+}
+
+/* Logo */
+.about-logo img {
+  width: 120px;
+  filter: drop-shadow(0 5px 15px rgba(255, 0, 255, 0.6));
+  transition: transform 0.6s ease;
+}
+.about-logo img:hover {
+  transform: rotateY(15deg) scale(1.05);
+}
+
+/* Title */
+.about-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 4px 10px rgba(0, 255, 255, 0.4);
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: cyan;
+}
+
+/* Intro Paragraph */
+.about-intro {
+  color: #ddd;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+
+/* Mission & Vision Cards */
+.about-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 30px;
+  width: 300px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 255, 255, 0.2);
+  transition: all 0.4s ease;
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.about-card:hover {
+  transform: perspective(600px) rotateY(10deg) translateY(-8px);
+  box-shadow: 0 8px 20px rgba(157, 78, 221, 0.5),
+    inset 0 -4px 6px rgba(50, 0, 70, 0.6);
+}
+
+.about-card h3 {
+  color: #ffb6ff;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.about-card p {
+  color: #e0e0ff;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Core Values */
+.core-values {
+  margin-top: 40px;
+}
+
+.values-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff99ff;
+  margin-bottom: 30px;
+}
+
+.values-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px 25px;
+  width: 220px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 25px rgba(0, 255, 255, 0.2);
+  transition: all 0.4s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(157, 78, 221, 0.5),
+    inset 0 -4px 6px rgba(50, 0, 70, 0.6);
+}
+
+.value-card h4 {
+  color: #a855f7;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.value-card p {
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+/* Stats Section */
+.about-stats {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 20px 35px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0, 255, 255, 0.2);
+  transition: all 0.4s ease;
+  transform: perspective(500px) rotateX(0deg);
+}
+
+.stat-box:hover {
+  transform: perspective(500px) rotateX(10deg) translateY(-8px);
+  box-shadow: 0 8px 20px rgba(157, 78, 221, 0.5),
+    inset 0 -4px 6px rgba(50, 0, 70, 0.6);
+}
+
+.stat-box h3 {
+  color: #00e0ff;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  color: #ccc;
+  font-size: 1rem;
+}

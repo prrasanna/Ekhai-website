@@ -1,0 +1,41 @@
+.navbar-custom {
+  background: linear-gradient(145deg, #4a148c, #7b1fa2);
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 4px 20px rgba(123, 31, 162, 0.4);
+  transition: all 0.3s ease;
+}
+
+.navbar-logo {
+  height: 50px;
+  width: auto;
+  filter: drop-shadow(0 2px 6px rgba(255, 255, 255, 0.3));
+}
+
+.brand-text {
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.6);
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 0 10px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 3px;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
