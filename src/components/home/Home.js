@@ -1,8 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // ✅ Import navigation
 import "./Home.css";
 import logo from "../../assets/logo.png";
 
 const Home = () => {
+  const navigate = useNavigate(); // ✅ Hook for navigation
+
   return (
     <section className="hero-section d-flex align-items-center justify-content-center flex-column text-center position-relative">
       {/* Overlay */}
@@ -44,8 +47,21 @@ const Home = () => {
 
         {/* Buttons */}
         <div className="hero-buttons mt-4">
-          <button className="btn-primary-3d">Get Started Today</button>
-          <button className="btn-secondary-3d ms-3">Learn More</button>
+          {/* ✅ Get Started → Contact Page */}
+          <button
+            className="btn-primary-3d"
+            onClick={() => navigate("/contact")}
+          >
+            Get Started Today
+          </button>
+
+          {/* ✅ Learn More → About Page */}
+          <button
+            className="btn-secondary-3d ms-3"
+            onClick={() => navigate("/about")}
+          >
+            Learn More
+          </button>
         </div>
 
         {/* Trusted Section */}
@@ -95,7 +111,6 @@ const Home = () => {
             <li>✅ Proven track record</li>
           </ul>
         </div>
-
       </div>
     </section>
   );

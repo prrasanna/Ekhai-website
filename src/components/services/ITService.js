@@ -13,7 +13,7 @@ const ITService = () => {
     <section className="service-detail-section">
       <div className="service-detail-content animate-fade-in">
         {/* Title */}
-        <h1 className="service-detail-title glow-text">💻 IT Services</h1>
+        <h1 className="service-detail-title glow-text">IT Services</h1>
 
         {/* Description */}
         <p className="service-detail-description">
