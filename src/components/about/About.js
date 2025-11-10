@@ -7,17 +7,17 @@ const About = () => {
     <section className="about-section">
       <div className="overlay"></div>
       <div className="container about-content text-center">
-        {/* Logo */}
+        
         <div className="about-logo mb-4">
           <img src={logo} alt="Ekhai Business Services" />
         </div>
 
-        {/* Title */}
+       
         <h1 className="about-title">
           <span className="highlight">About Us</span>
         </h1>
 
-        {/* Intro paragraph */}
+        
         <p className="about-intro">
           We are a dynamic organization dedicated to providing professional
           solutions in recruitment, legal consulting, and CSR event management.
@@ -29,7 +29,6 @@ const About = () => {
           individuals with excellence.
         </p>
 
-        {/* Mission & Vision */}
         <div className="about-grid">
           <div className="about-card">
             <h3>🎯 Our Mission</h3>
@@ -48,7 +47,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Core Values */}
         <div className="core-values">
           <h2 className="values-title">💎 Our Core Values</h2>
           <div className="values-container">
@@ -76,7 +74,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Stats Section */}
+       
         <div className="about-stats">
           <div className="stat-box">
             <h3>100+</h3>
@@ -92,7 +90,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* ===== Our Trusted Clients ===== */}
+        {/* Our Trusted Clients */}
         <section className="trusted-section mt-5">
           <h2 className="trusted-title">
             <span className="highlight">Our Trusted Clients</span>
@@ -126,7 +124,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* ===== Why Choose Us ===== */}
+        {/* Why Choose Us */}
         <section className="why-choose-section mt-5">
           <h2 className="choose-title">
              <span className="highlight">Why Choose Us</span>

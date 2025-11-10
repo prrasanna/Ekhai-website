@@ -22,7 +22,6 @@ import SouvenirService from "./components/services/SouvenirService";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-/* Scroll to top when navigating */
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -43,7 +42,6 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
 
-          {/* Service Detail Pages */}
           <Route path="/services/it" element={<ITService />} />
           <Route path="/services/legal" element={<LegalService />} />
           <Route path="/services/csr" element={<CSRService />} />

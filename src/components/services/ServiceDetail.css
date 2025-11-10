@@ -98,7 +98,7 @@
   max-width: 800px;
 }
 
-/* --- Animated Title --- */
+/* Animated Title */
 .service-detail-title {
   font-size: 3rem;
   margin-bottom: 20px;
@@ -111,7 +111,7 @@
   text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff, 0 0 40px #00ffff;
 }
 
-/* --- Description --- */
+/* Description */
 .service-detail-description {
   font-size: 1.2rem;
   line-height: 1.7;
@@ -119,7 +119,7 @@
   color: #d9e8ff;
 }
 
-/* --- 3D Card --- */
+/* 3D Card */
 .service-detail-3dcard {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(8px);
@@ -137,14 +137,14 @@
     inset 0 -4px 6px rgba(50, 0, 70, 0.6);
 }
 
-/* --- Card Headings --- */
+/* Card Headings */
 .service-detail-3dcard h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
   color: #00ffff;
 }
 
-/* --- List Styling --- */
+/* List Styling */
 .service-detail-3dcard ul {
   list-style: none;
   padding: 0;

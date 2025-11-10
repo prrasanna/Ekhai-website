@@ -30,7 +30,7 @@
   text-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
 }
 
-/* ✅ 3 Cards per row */
+/* 3 Cards per row */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -91,7 +91,7 @@
   margin-bottom: 20px;
 }
 
-/* ✅ Learn More Button */
+/* Learn More Button */
 .learn-more-btn {
   background: linear-gradient(90deg, #00e5ff, #00bcd4);
   color: #fff;

@@ -1,20 +1,20 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // ✅ Import navigation
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import logo from "../../assets/logo.png";
 
 const Home = () => {
-  const navigate = useNavigate(); // ✅ Hook for navigation
+  const navigate = useNavigate(); 
 
   return (
     <section className="hero-section d-flex align-items-center justify-content-center flex-column text-center position-relative">
-      {/* Overlay */}
+      
       <div className="overlay"></div>
 
-      {/* Hero Content */}
+      
       <div className="container text-light hero-content position-relative">
 
-        {/* Logo */}
+        
         <div className="brand-logo mb-3">
           <img
             src={logo}
@@ -23,17 +23,16 @@ const Home = () => {
           />
         </div>
 
-        {/* Title */}
+       
         <h1 className="hero-title">
           <span className="highlight">Ekhai</span> Business Services
         </h1>
 
-        {/* Subtitle */}
         <p className="hero-subtitle">
           We provide <span className="typing-text">JOBS</span>
         </p>
 
-        {/* Description */}
+        
         <p className="hero-description">
           Your trusted partner for comprehensive{" "}
           <strong>recruitment, legal, and CSR event organization</strong>{" "}
@@ -45,9 +44,8 @@ const Home = () => {
           </span>
         </p>
 
-        {/* Buttons */}
         <div className="hero-buttons mt-4">
-          {/* ✅ Get Started → Contact Page */}
+          
           <button
             className="btn-primary-3d"
             onClick={() => navigate("/contact")}
@@ -55,7 +53,7 @@ const Home = () => {
             Get Started Today
           </button>
 
-          {/* ✅ Learn More → About Page */}
+          
           <button
             className="btn-secondary-3d ms-3"
             onClick={() => navigate("/about")}
@@ -64,7 +62,7 @@ const Home = () => {
           </button>
         </div>
 
-        {/* Trusted Section */}
+        
         <div className="trusted mt-5">
           <p className="trusted-text">
             TRUSTED BY INDUSTRY LEADERS <br />
@@ -72,7 +70,7 @@ const Home = () => {
           </p>
         </div>
 
-        {/* Stats Cards */}
+        
         <div className="stats-cards d-flex justify-content-center mt-5 flex-wrap">
           <div className="glass-card">
             <h2>5+</h2>
@@ -102,7 +100,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Why Choose Us */}
+        
         <div className="why-choose-us mt-5">
           <h5>Why Choose Us?</h5>
           <ul className="list-unstyled">

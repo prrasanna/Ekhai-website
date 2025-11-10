@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-glow"></div>
 
       <div className="footer-container">
-        {/* Left Column */}
+       
         <div className="footer-about">
           <h2 className="footer-title">
             <span className="highlight">Ekhai</span> Business Services
@@ -25,7 +25,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Middle Column */}
         <div className="footer-links">
           <h4>Quick Links</h4>
           <ul>
@@ -35,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Right Column */}
+        
         <div className="footer-contact">
           <h4>Contact Info</h4>
           <p><FaMapMarkerAlt className="footer-icon" /> <b>Headquarters:</b> Kanyakumari</p>
@@ -44,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Core Services Box */}
+     
       <div className="footer-core">
         <h4>Our Core Services</h4>
         <div className="core-tags">
@@ -57,7 +56,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="footer-bottom">
         <p>© 2025 Ekhai Business Services. All rights reserved.</p>
         <div className="footer-meta">

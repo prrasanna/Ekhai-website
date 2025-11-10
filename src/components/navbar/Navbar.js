@@ -7,13 +7,13 @@ const NavbarComponent = () => {
   return (
     <nav className="navbar-custom navbar navbar-expand-lg sticky-top">
       <div className="container">
-        {/* Brand Logo */}
+        
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="Ekhai Business Services" className="navbar-logo" />
           <span className="brand-text ms-2">EKHAI Business Services</span>
         </Link>
 
-        {/* Mobile Toggle */}
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -26,7 +26,7 @@ const NavbarComponent = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Navigation Links */}
+        
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">

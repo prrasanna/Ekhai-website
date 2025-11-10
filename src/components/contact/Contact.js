@@ -14,9 +14,9 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Info + Form */}
+      
       <div className="contact-container">
-        {/* Left: Contact Info */}
+        
         <div className="contact-info">
           <div className="info-card">
             <FaPhoneAlt className="info-icon" />
@@ -43,7 +43,7 @@ const Contact = () => {
           </a>
         </div>
 
-        {/* Right: Contact Form */}
+        
         <div className="contact-form">
           <h3>Send Us a Message</h3>
           <form>
@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Map Section */}
+      
       <div className="map-container">
         <h3 className="map-title">Find Us</h3>
         <iframe
@@ -78,7 +78,7 @@ const Contact = () => {
         ></iframe>
       </div>
 
-      {/* FAQ Section */}
+      
       <div className="faq-section">
         <h3 className="faq-title">Frequently Asked Questions</h3>
         <p className="faq-subtitle">

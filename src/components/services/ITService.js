@@ -12,10 +12,8 @@ const ITService = () => {
   return (
     <section className="service-detail-section">
       <div className="service-detail-content animate-fade-in">
-        {/* Title */}
         <h1 className="service-detail-title glow-text">IT Services</h1>
 
-        {/* Description */}
         <p className="service-detail-description">
           Empower your business with cutting-edge technology solutions. 
           Our IT services cover full-stack development, cloud deployment, 
@@ -23,7 +21,6 @@ const ITService = () => {
           ahead in the ever-evolving tech landscape.
         </p>
 
-        {/* 3D Expertise Card */}
         <div className="service-detail-3dcard">
           <h3>Our Expertise</h3>
           <ul>
